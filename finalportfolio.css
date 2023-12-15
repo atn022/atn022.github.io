@@ -1,0 +1,240 @@
+#title {background-color:#F2F8FF;}
+
+.container-fluid{
+    padding: 3% 15%;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 95px;
+    line-height: 1.5;
+    color: #BFC5F0;
+}
+
+h2 {
+    color: #5b68ca;
+    font-family: 'Agbalumo'; 
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+ h3 {
+    font-family: 'Catamaran';
+    font-weight: bold;
+    color:#695ccc !important;ss
+ }   
+
+ p {
+    color: #97a9f6;
+    text-align: center;
+    font-size: large;
+ }
+
+body {
+    font-family: 'Lora', sans-serif;
+}
+
+.project-link {
+    color:#695ccc !important;
+    font-family: 'Catamaran';
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #9b65d8 !important;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.2rem;
+    color: #caaeff !important;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}            
+
+.event1 {
+    padding: 7% 15%; 
+    background-color:#F2F8FF;
+    position: relative;
+    z-index: 1;
+}
+
+.event2 {
+    padding: 7% 15%; 
+    background-color:#F2F8FF;
+    position: relative;
+    z-index: 1;
+}
+
+.event3 {
+    padding: 7% 15%; 
+    background-color:#F2F8FF;
+    position: relative;
+    z-index: 1;
+}
+
+.event-image {
+    width: 85%;
+    height: auto;
+    position: relative;
+    border: 5px solid #BFC5F0; 
+    margin-left: 60px;
+    margin-bottom: 90px;
+}
+
+.events-header {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.resume {
+    color: #000000;
+    font-family: 'Agbalumo'; 
+    font-size: 1.5;
+    font-weight: bold;
+    z-index: 1;
+    padding: none;
+    position: relative;
+}
+
+.resume-image {
+    width: 110%;
+    height: auto;
+    display:block;
+    position: relative;
+    border: 5px solid #BFC5F0; 
+    margin-bottom: 90px;
+    margin-right: 50px;
+}
+
+.resume-text {
+    margin-left: 60px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    font-size: large;
+}
+
+.title-image {
+    width: 59%;
+    position: relative;
+    border: 5px solid #BFC5F0; 
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+#features {
+    padding: 7% 15%; 
+    background-color:#F2F8FF;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-header {
+    text-align: center;
+}
+
+.icon {
+    color: #997de8;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #bfaaff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #CBC3E3;
+    text-align: center;
+
+}
+
+.press-logo {
+    width: 20%;
+    margin: 5px 5px 20px;
+    padding-top: 10px;
+
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: #000000;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #F2F8FF;
+    color: #FFFFFF;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Catamaran';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #F2F8FF;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color:#695ccc;
+    font-size: 2em;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #FFFFFF;
+    color: #5b68ca;
+}
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image {
+       position:static; 
+       transform: rotate(0);
+    }
+}
